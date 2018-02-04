@@ -10,9 +10,9 @@ You can access the original data set at this url: http://archive.ics.uci.edu/ml/
 
 ***
 
-### data set: q1q4dataset
+### data set: q1q4dataset/dataset1.txt
 
-Access the data set by loading the 'dataSubmission.Rdata' file and pointing to the q1q4dataset data frame/data table object.
+Access the data set by loading the 'dataSubmission.Rdata' file and pointing to the q1q4dataset data frame/data table object. You can also access the data directly from the dataset1.txt file in this git repository.
 
 This data set is the combined data from testing and training data sets for an experiment to recognize human activity using smartphone data. This data set is filtered to only contain measurements related to mean() and std().
 
@@ -160,9 +160,9 @@ One of the following two text values stored as a factor:
 
 ***
 
-### data set: q5datasetmean
+### data set: q5datasetmean/dataset2.txt
 
-Access the data set by loading the 'dataSubmission.Rdata' file and pointing to the q5datasetmean data frame/data table object.
+Access the data set by loading the 'dataSubmission.Rdata' file and pointing to the q5datasetmean data frame/data table object. You can also access the data directly from the dataset2.txt file in this git repository.
 
 This table is derived from the above data set q1q4dataset and provides the average value for the measurements taken during the experiment by subject and activity for each variable.
 

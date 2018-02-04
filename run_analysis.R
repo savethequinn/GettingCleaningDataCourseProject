@@ -98,4 +98,5 @@ q5datasetmean = aggregate(q1q4dataset$value, by = list(q1q4dataset$subject, q1q4
 names(q5datasetmean) = c('subject', 'activity_label', 'variable', 'average_value')
 
 setwd('../')
-save(q1q4dataset, q5datasetmean, file = 'dataSubmission.Rdata')
+write.table(q1q4dataset, file = './dataset1.txt', row.names = FALSE)
+write.table(q5datasetmean, file = './dataset2.txt', row.names = FALSE)

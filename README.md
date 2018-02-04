@@ -18,10 +18,15 @@ Description: The single R script that sources and transforms data from the Human
 | y_train.txt | File used to match the activity to the training data  |
 | subject_train.txt  | File used to match the training data to an experiment subject |
 
-### Required data sets
+### Submitted data sets
 
 You can access the data sets by loading the dataSubmission.Rdata file in this git repository.
 There will be two data frames loaded:
 
 * q1q4dataset
 * q5datasetmean
+
+You can also access the data sets directly from the .txt files in this git repository:
+
+* dataset1.txt
+* dataset2.txt (the only file submitted on Coursera for this project)
