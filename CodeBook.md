@@ -166,14 +166,8 @@ Access the data set by loading the 'dataSubmission.Rdata' file and pointing to t
 
 This table is derived from the above data set q1q4dataset and provides the average value for the measurements taken during the experiment by subject and activity for each variable.
 
-Please see below for a description of contents for this table. A list of possible values for non-numeric columns will be provided following the table description
+Please see below for a description of contents for this table.
 
-| Column Name  | Column Description | Data Type | Source File(s) |
-  | ------------- | ------------- | ------------- | ------------- |
-  | subject | ID corresponding to the experiment's subject  | Factor | subject_train.txt; subject_test.txt |
-| activity  | Text description corresponding to the measured activity  | Factor  | activity_labels.txt  |
-| variable  | ext name corresponding to the type of measurement captured during the experiment -- the 'X', 'Y', and 'Z' indicate the axis direction of the measured activity | Factor | features.txt  |
-| average_value  | Numeric value corresponding to the average measurement value from the experiment  | Numeric  | X_train.txt; X_test.txt |
 
 ***
 
@@ -202,11 +196,54 @@ One of the following text values stored as a factor:
 
 ***
 
-**variable**
+**measurement fields**
 
-One of the following 66 text values stored as a factor:
+The following are a list of numeric columns containing various measurements on the subjects movement in the experiment.
 
+* subject
+* activity_label
+* fBodyAcc-mean()-X
+* fBodyAcc-mean()-Y
+* fBodyAcc-mean()-Z
+* fBodyAcc-std()-X
+* fBodyAcc-std()-Y
+* fBodyAcc-std()-Z
+* fBodyAccJerk-mean()-X
+* fBodyAccJerk-mean()-Y
+* fBodyAccJerk-mean()-Z
+* fBodyAccJerk-std()-X
+* fBodyAccJerk-std()-Y
+* fBodyAccJerk-std()-Z
+* fBodyAccMag-mean()
+* fBodyAccMag-std()
+* fBodyBodyAccJerkMag-mean()
+* fBodyBodyAccJerkMag-std()
+* fBodyBodyGyroJerkMag-mean()
+* fBodyBodyGyroJerkMag-std()
+* fBodyBodyGyroMag-mean()
+* fBodyBodyGyroMag-std()
+* fBodyGyro-mean()-X
+* fBodyGyro-mean()-Y
+* fBodyGyro-mean()-Z
+* fBodyGyro-std()-X
+* fBodyGyro-std()-Y
+* fBodyGyro-std()-Z
 * tBodyAcc-mean()-X
+* tBodyAcc-mean()-Y
+* tBodyAcc-mean()-Z
+* tBodyAcc-std()-X
+* tBodyAcc-std()-Y
+* tBodyAcc-std()-Z
+* tBodyAccJerk-mean()-X
+* tBodyAccJerk-mean()-Y
+* tBodyAccJerk-mean()-Z
+* tBodyAccJerk-std()-X
+* tBodyAccJerk-std()-Y
+* tBodyAccJerk-std()-Z
+* tBodyAccJerkMag-mean()
+* tBodyAccJerkMag-std()
+* tBodyAccMag-mean()
+* tBodyAccMag-std()
 * tBodyGyro-mean()-X
 * tBodyGyro-mean()-Y
 * tBodyGyro-mean()-Z
@@ -219,58 +256,17 @@ One of the following 66 text values stored as a factor:
 * tBodyGyroJerk-std()-X
 * tBodyGyroJerk-std()-Y
 * tBodyGyroJerk-std()-Z
-* tBodyAcc-mean()-Y
-* tBodyAccMag-mean()
-* tBodyAccMag-std()
-* tGravityAccMag-mean()
-* tGravityAccMag-std()
-* tBodyAccJerkMag-mean()
-* tBodyAccJerkMag-std()
-* tBodyGyroMag-mean()
-* tBodyGyroMag-std()
 * tBodyGyroJerkMag-mean()
 * tBodyGyroJerkMag-std()
-* fBodyAcc-mean()-X
-* fBodyAcc-mean()-Y
-* fBodyAcc-mean()-Z
-* fBodyAcc-std()-X
-* fBodyAcc-std()-Y
-* fBodyAcc-std()-Z
-* tBodyAcc-mean()-Z
-* fBodyAccJerk-mean()-X
-* fBodyAccJerk-mean()-Y
-* fBodyAccJerk-mean()-Z
-* fBodyAccJerk-std()-X
-* fBodyAccJerk-std()-Y
-* fBodyAccJerk-std()-Z
-* tBodyAcc-std()-X
+* tBodyGyroMag-mean()
+* tBodyGyroMag-std()
 * tGravityAcc-mean()-X
 * tGravityAcc-mean()-Y
-* fBodyGyro-mean()-X
-* fBodyGyro-mean()-Y
-* fBodyGyro-mean()-Z
-* fBodyGyro-std()-X
-* fBodyGyro-std()-Y
-* fBodyGyro-std()-Z
 * tGravityAcc-mean()-Z
 * tGravityAcc-std()-X
 * tGravityAcc-std()-Y
 * tGravityAcc-std()-Z
-* tBodyAcc-std()-Y
-* fBodyAccMag-mean()
-* fBodyAccMag-std()
-* fBodyBodyAccJerkMag-mean()
-* fBodyBodyAccJerkMag-std()
-* fBodyBodyGyroMag-mean()
-* fBodyBodyGyroMag-std()
-* fBodyBodyGyroJerkMag-mean()
-* fBodyBodyGyroJerkMag-std()
-* tBodyAcc-std()-Z
-* tBodyAccJerk-mean()-X
-* tBodyAccJerk-mean()-Y
-* tBodyAccJerk-mean()-Z
-* tBodyAccJerk-std()-X
-* tBodyAccJerk-std()-Y
-* tBodyAccJerk-std()-Z
+* tGravityAccMag-mean()
+* tGravityAccMag-std()
 
 ***

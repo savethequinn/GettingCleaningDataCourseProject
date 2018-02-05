@@ -4,7 +4,7 @@
 ### run_analysis.R
 Description: The single R script that sources and transforms data from the Human Activity Recognition Using Smartphones Data Set.
 
-8 Source files were used in analysis:
+8 Source files were used in analysis and joined together to provide the appropriate tiny data set:
 
 
 | File Name  | Description |

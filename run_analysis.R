@@ -97,6 +97,8 @@ names(q1q4dataset) = c('subject', 'activity_label', 'variable', 'signal', 'varia
 q5datasetmean = aggregate(q1q4dataset$value, by = list(q1q4dataset$subject, q1q4dataset$activity_label, q1q4dataset$variable), FUN = mean)
 names(q5datasetmean) = c('subject', 'activity_label', 'variable', 'average_value')
 
+q5datasetmean = dcast(q5datasetmean, subject + activity_label ~ variable, value.var="average_value")
+
 setwd('../')
 write.table(q1q4dataset, file = './dataset1.txt', row.names = FALSE)
 write.table(q5datasetmean, file = './dataset2.txt', row.names = FALSE)
